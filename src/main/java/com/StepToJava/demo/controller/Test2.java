@@ -13,13 +13,9 @@ import java.util.List;
 @Component
 public class Test2 {
 
-    private List<Test> tests = new ArrayList<>(Arrays.asList(
-
-    )
-    );
+    private List<Test> tests = new ArrayList<>(Arrays.asList());
 
     public List<Test> listAll() {
-
         return tests;
     }
 }
